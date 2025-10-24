@@ -1,0 +1,88 @@
+﻿OBLI Fluency Pathfinder - Project Backup
+========================================
+
+Backup Date: 2025-09-23 00:10:48
+Project Version: 0.0.0
+Git Commit: e3af9c1
+Git Branch: main
+
+DEPLOYMENT STATUS: ✅ SUCCESSFULLY DEPLOYED
+Live URL: https://1welcorn.github.io/obli-fluency-pathfinder/
+Repository: https://github.com/1Welcorn/obli-fluency-pathfinder
+
+PROJECT OVERVIEW:
+================
+This is a React-based educational platform called "OBLI Fluency Pathfinder" 
+designed for language learning with AI-powered features.
+
+TECHNOLOGY STACK:
+================
+- Frontend: React 19.1.1 with TypeScript
+- Build Tool: Vite 6.2.0
+- Styling: Tailwind CSS 4.1.13
+- Authentication: Firebase Auth
+- Database: Firestore
+- AI Integration: Google Gemini AI
+- Deployment: GitHub Pages with GitHub Actions
+
+KEY FEATURES:
+============
+- Student and Teacher role-based access
+- Study materials management
+- AI-powered learning assistance
+- Progress tracking
+- Challenge system
+- Notes and materials organization
+- Real-time collaboration features
+
+FILES INCLUDED IN BACKUP:
+========================
+✅ All source code files (components, services, types)
+✅ Configuration files (vite.config.ts, tsconfig.json, tailwind.config.js)
+✅ Package files (package.json, package-lock.json)
+✅ GitHub Actions workflow (.github/workflows/deploy.yml)
+✅ Documentation (README.md, setup guides)
+✅ Build configuration and deployment files
+✅ Public assets and static files
+
+EXCLUDED FROM BACKUP:
+====================
+❌ node_modules (can be reinstalled)
+❌ .git directory (version control history)
+❌ dist directory (build output)
+❌ Log files and temporary files
+
+RESTORATION INSTRUCTIONS:
+========================
+1. Extract the zip file to a new directory
+2. Open terminal/command prompt in the project directory
+3. Run: npm install
+4. For development: npm run dev
+5. For production build: npm run build
+6. For deployment: push to GitHub (auto-deploys via GitHub Actions)
+
+FIREBASE SETUP REQUIRED:
+========================
+- Add domain "1welcorn.github.io" to Firebase authorized domains
+- Ensure Firebase project is properly configured
+- Verify API keys are set in environment variables
+
+DEPLOYMENT WORKFLOW:
+===================
+- Automatic deployment via GitHub Actions on push to main branch
+- Build process: npm install → npm run build → deploy to GitHub Pages
+- URL: https://1welcorn.github.io/obli-fluency-pathfinder/
+
+TROUBLESHOOTING:
+===============
+- If build fails: Check for Rollup native dependency issues
+- If auth fails: Verify Firebase domain authorization
+- If deployment fails: Check GitHub Actions logs
+
+CONTACT & SUPPORT:
+==================
+- Repository: https://github.com/1Welcorn/obli-fluency-pathfinder
+- Live App: https://1welcorn.github.io/obli-fluency-pathfinder/
+
+This backup contains everything needed to restore and continue development
+of the OBLI Fluency Pathfinder application.

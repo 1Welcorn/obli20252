@@ -1,0 +1,19 @@
+# Example Git Workflow
+
+# 1. Check what changed
+git status
+
+# 2. Add your changes
+git add .
+
+# 3. Commit with descriptive message
+git commit -m 'Add new feature: Past Exam Upload with objective questions'
+
+# 4. Pull any remote changes
+git pull origin main
+
+# 5. Push your changes
+git push origin main
+
+# 6. Verify everything is synced
+git status

@@ -1,0 +1,35 @@
+🚀 OBLI PATHFINDER - QUICK START GUIDE
+=====================================
+
+📱 LIVE APP: https://1welcorn.github.io/obli-fluency-pathfinder/
+
+⚡ QUICK SETUP (3 steps):
+1. Run: SETUP.bat
+2. Run: npm run dev  
+3. Open: http://localhost:5173
+
+🔧 COMMANDS:
+- npm run dev     → Start development
+- npm run build   → Build for production
+- npm run preview → Preview production build
+
+📁 KEY FILES:
+- App.tsx         → Main application
+- components/     → All React components
+- services/       → Firebase & AI services
+- .github/workflows/ → Auto-deployment
+
+🌐 DEPLOYMENT:
+- Push to GitHub → Auto-deploys to GitHub Pages
+- No manual deployment needed!
+
+⚠️ FIREBASE SETUP:
+- Add "1welcorn.github.io" to Firebase authorized domains
+- This enables Google Sign-In
+
+💾 BACKUP:
+- This folder IS your complete backup
+- Copy to USB, cloud, or any location
+- Contains everything needed to continue development
+
+🎯 STATUS: ✅ FULLY DEPLOYED & WORKING

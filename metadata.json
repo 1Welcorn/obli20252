@@ -1,0 +1,5 @@
+{
+  "name": "OBLI Fluency Pathfinder",
+  "description": "A personalized AI-powered learning app to help students prepare for the OBLI English fluency competition in Brazil. It creates custom learning paths, provides interactive lessons with a virtual teacher, and uses multimedia to make learning engaging.",
+  "requestFramePermissions": []
+}

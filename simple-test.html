@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBLI Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 OBLI A.I. Test</h1>
+        <div id="status" class="status success">
+            ✅ Server is working correctly!
+        </div>
+        <p>If you can see this page, your development server is running properly.</p>
+        <p>The blank page issue might be related to React components or imports.</p>
+        
+        <h3>Next Steps:</h3>
+        <ol style="text-align: left;">
+            <li>Check browser console (F12) for errors</li>
+            <li>Try accessing the main app again</li>
+            <li>Let me know what errors you see</li>
+        </ol>
+    </div>
+
+    <script>
+        console.log('✅ Simple test page loaded successfully');
+        console.log('📍 Current URL:', window.location.href);
+        console.log('🕐 Loaded at:', new Date().toLocaleString());
+        
+        // Check for any global errors
+        window.addEventListener('error', function(e) {
+            console.error('❌ JavaScript Error:', e.error);
+            document.getElementById('status').innerHTML = '❌ JavaScript Error: ' + e.message;
+            document.getElementById('status').className = 'status error';
+        });
+    </script>
+</body>
+</html>

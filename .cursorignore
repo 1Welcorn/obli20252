@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.git/
+*.log
+*.cache
+.vscode/
+.idea/
+coverage/
+build/
+.next/
+.nuxt/
+.cache/
+.temp/
+.tmp/
+
+
